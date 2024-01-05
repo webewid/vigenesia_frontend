@@ -1,0 +1,92 @@
+/*======================================
+BACKGROUND
+======================================*/
+.bg-navbar {
+    background-color: #ffffff;
+    color: rgb(50, 50, 50);
+    box-shadow:  7px 0 15px 0 rgba(235, 237, 244, 0.471);
+    z-index: 1;
+}
+/*======================================
+BACKGROUND
+======================================*/
+/*======================================
+NAV
+======================================*/
+.nav-itemm .nav-linkk {
+    padding: 10px 10px 0 10px;
+    width: 100%;
+    display: block;
+    text-align: left;
+    color: rgb(108, 108, 108);
+    transition: all 0.5s;
+}
+.nav-linkk:hover{
+    color: rgb(92, 92, 92);
+    transform: scale(0.9);
+}
+.nav-linkk i {
+    font-size: 0.85rem;
+    margin-right: 0.4rem;
+    margin-left: 0.5rem;
+}
+.nav-linkk span {
+    font-size: 0.85rem;
+}
+.navbar-toggler{
+    transition: all 1s;
+}
+.navbar-toggler:focus{
+    border: none;
+    box-shadow: none;
+    transform: rotate(360deg);
+}
+.navbar-toggler:hover{
+    transform: rotate(180deg);
+}
+/*======================================
+NAV
+======================================*/
+/*======================================
+SIDEBAR
+======================================*/
+.sidebar-heading{
+    color: rgb(108, 108, 108);
+    margin: 20px 0 -3px 0 ;
+    padding: 0 0 0 10px;
+    font-weight: 700;
+    font-size: 10pt;
+    text-align: left;
+}
+.sidebar {
+    overflow:auto;
+    display: block;
+    width: 11rem;
+    height: 100vh;
+    padding: 0 10px 30px 5px;
+    transition: all 0.5s;
+}
+.sidebar .nav-item .collapse,
+.sidebar .nav-item .collapsing {
+    margin: 0 10px 10px 10px;
+}
+/*======================================
+SIDEBAR
+======================================*/
+/*======================================
+WRAPPER
+======================================*/
+#wrapper {
+    display: flex;
+}
+#content-wrapper {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-x: center;
+    width: 100%;
+    overflow-x: hidden;
+}
+/*======================================
+WRAPPER
+======================================*/

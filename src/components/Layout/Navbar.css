@@ -1,0 +1,80 @@
+.btn-logout {
+    border-radius: 20px;
+    padding: 0px 7px 1px 7px;
+    background-image: linear-gradient(to top, rgb(255, 11, 11) 20%,rgb(255, 99, 99) 100%);
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    box-shadow:  0 4px 10px 0 rgba(255, 211, 211, 0.13), 0 8px 15px -5px rgb(255, 81, 81);
+    transition: all 0.7s;
+    border: none;
+}
+.btn-logout:focus{
+    color: white !important;
+}
+.btn-logout:hover{
+    border: none;
+    background-image: linear-gradient(to top, rgb(247, 0, 0) 20%,rgb(253, 92, 92) 100%);
+    color: rgb(255, 255, 255);
+}
+.btn-login {
+    border-radius: 20px;
+    padding: 4px 50px 5px 50px;
+    background-image: linear-gradient(to top, rgb(11, 97, 255) 20%,rgb(99, 154, 255) 100%);
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    box-shadow:  0 4px 10px 0 rgba(211, 230, 255, 0.13), 0 8px 15px -5px rgb(81, 142, 255);
+    transition: all 0.7s;
+    border: none;
+}
+.btn-login:focus{
+    color: white !important;
+}
+.btn-login:hover{
+    border: none;
+    background-image: linear-gradient(to top, rgb(0, 86, 247) 20%,rgb(92, 148, 253) 100%);
+    color: rgb(255, 255, 255);
+}
+.bi-sosmed{
+    padding-right: 15px;
+    font-size: 22px;
+}
+.bi-credit-card{
+    padding-right: 7px;
+    font-size: 16pt; 
+    color: rgb(108, 108, 108);
+}
+.btn-navbar-donasi{
+    padding: 0;
+    margin-right: 20px;
+    border: 1px solid white;
+}
+.btn-navbar-donasi:focus{
+    color: white !important;
+    box-shadow: none !important;
+    border: 1px solid white;
+}
+.bi-display{
+    padding-right: 7px;
+    font-size: 16pt; 
+    color: rgb(108, 108, 108);
+}
+.dropdown-item{
+    font-weight: 600;
+    font-size: 11pt;
+    color: rgb(108, 108, 108);
+}
+.dropdown-item:focus{
+    background-color: rgb(242, 242, 242);
+    color: rgb(108, 108, 108);
+}
+.dropdown-menu{
+    border: none; 
+    box-shadow:  0 0 20px 0 rgba(235, 237, 244, 0.471); 
+    border-radius: 5px;
+}
+.nav-bar {
+    font-weight: 700;
+    color: rgb(108, 108, 108);
+    background-color: white;
+    box-shadow:  0 10px 15px 0 rgba(235, 237, 244, 0.471);
+}
